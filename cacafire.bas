@@ -10,13 +10,7 @@
 
 200 _TURBOOFF
 
-
-
-10 color,0,0:Screen1
-20 vpoke base(6)+8,&hd5
-30 print"<=>?@ABCDEFGHIJKLMNOP"
-40 a$=input$(1)
-50 screen 0
+300 input$(1):screen0
 
 
  8  -> @ABCDEFG
