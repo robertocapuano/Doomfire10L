@@ -1,9 +1,3 @@
-
-
-
-https://webmsx.org/?M=MSXTR
-
-
 # Doomfire10L
 Doomfire10L is an implementation in MSX2 BASIC of the Doom Fire on PS1
 
