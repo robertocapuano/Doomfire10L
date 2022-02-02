@@ -1,5 +1,5 @@
 # Doomfire10L
-Doomfire10L is an implementation in MSX2 BASIC of the Doom Fire on PS1
+Doomfire10L is an implementation in MSX2 BASIC of Doom fire for PS1
 
 Original source:
 https://fabiensanglard.net/doom_fire_psx/
@@ -13,7 +13,7 @@ Sources are stored at: https://github.com/robertocapuano/Doomfire10L
 
 # Installation
 Game was developed in MSX-BASIC v3 on a MSX2+. Emulator is available at https://webmsx.org/
-1. connect to https://webmsx.org/?M=MSXTR
+1. connect to https://webmsx.org/?M=MSXTRA
 2. click on the first floppy icon below the blue screen
 3. Select "Add Disk Images"
 4. Choose "doomfile.dsk"
