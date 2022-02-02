@@ -10,7 +10,7 @@ Doomfire10L is an implementation in MSX2 BASIC of the Doom Fire on PS1
 Original source:
 https://fabiensanglard.net/doom_fire_psx/
 
-![screenshot](screenshot.png)
+![screenshot](doomfire.gif)
 
 # Controls
 Press space to stop/resume the effect.
