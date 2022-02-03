@@ -13,7 +13,7 @@ Sources are stored at: https://github.com/robertocapuano/Doomfire10L
 
 # Installation
 Game was developed in MSX-BASIC v3 on a MSX2+. Emulator is available at https://webmsx.org/
-1. connect to https://webmsx.org/?M=MSXTRA
+1. connect to https://webmsx.org
 2. click on the first floppy icon below the blue screen
 3. Select "Add Disk Images"
 4. Choose "doomfile.dsk"
@@ -24,6 +24,10 @@ run
 ```
 
 WebMSX Launch URL:
+
+- https://webmsx.org/?DISK=https://github.com/robertocapuano/Doomfire10L/raw/main/doomfire.dsk&BASIC_RUN=doomfire.bas
+
+for a smoother effect use an accelerated clock:
 
 - https://webmsx.org/?Z80_CLOCK_MODE=8&DISK=https://github.com/robertocapuano/Doomfire10L/raw/main/doomfire.dsk&BASIC_RUN=doomfire.bas
 
