@@ -77,7 +77,7 @@ for a smoother effect use an accelerated clock:
 ```
 150 K$=INKEY$:K=(K$<>""): R=-K*(4-R) + (1+K)*R:goto110:
 ```
-- check key press, R is setted to zero to avoid generation of new heat values
+- check key press, R is switched to stop/start generation of new heat values
 
 ```
 160 _TURBOOFF
