@@ -36,10 +36,6 @@ for a smoother effect use an accelerated clock:
 # Source Description
 
 ```
-1 bload"x.bin",R
-```
-- Load Kun BASIC.
-```
 10 screen1,0,0:COLOR2,1,1:KEYOFF:CLS:DEFINTA-Z:B=base(5):R=RND(-TIME):R=4: BB=B+23*32:CB=BASE(6):
 ```
 - screen1,0,0: Set text mode 32x24
@@ -56,10 +52,6 @@ for a smoother effect use an accelerated clock:
 ```
 - load tile sets
 
-```
-100 _TURBOON(BB,R)
-```
-- enable turbo mode
 
 ```
 105  S=32*24-1:for I=0 to S: vpoke BB+31-I, 64 : next I 
@@ -81,10 +73,6 @@ for a smoother effect use an accelerated clock:
 ```
 - check key press, R is switched to stop/start generation of new heat values
 
-```
-160 _TURBOOFF
-```
-- end of turbo section
 ```
 310 DATA 11, 88, 99,  ba, 98,   64, 73, 82, 91, 100
 
