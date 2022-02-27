@@ -4,7 +4,7 @@ Doomfire10L is an implementation in MSX2 BASIC of Doom fire for PS1
 Original source:
 https://fabiensanglard.net/doom_fire_psx/
 
-For smooth animation we use Kun-BASIC and recommend using an accelerated clock.
+For smooth animation we recommend using an accelerated clock.
 
 ![screenshot](doomfire.gif)
 
