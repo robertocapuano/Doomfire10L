@@ -1,4 +1,4 @@
-1 rem bload"x.bin",R:rem to use KUN BASIC decomment lines 1,100,160
+1 rem bload"x.bin",R:rem to use KUN BASIC uncomment lines 1,100,160
 10 screen1,0,0:COLOR2,1,1:KEYOFF:CLS:DEFINTA-Z:B=base(5):R=RND(-TIME):R=4: BB=B+23*32:CB=BASE(6):
 20  for i=0 to 4: READ R$:VPOKE  CB+8+I,VAL("&H"+R$) : next I
 100 rem _TURBOON(BB,R)

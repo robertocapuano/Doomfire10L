@@ -36,9 +36,9 @@ for a smoother effect use an accelerated clock:
 # Source Description
 
 ```
-1 rem bload"x.bin",R:rem to use KUN BASIC decomment lines 1,100,160
+1 rem bload"x.bin",R:rem to use KUN BASIC uncomment lines 1,100,160
 ```
-- Decomment line to load Kun BASIC.
+- uncomment line to load Kun BASIC.
 ```
 10 screen1,0,0:COLOR2,1,1:KEYOFF:CLS:DEFINTA-Z:B=base(5):R=RND(-TIME):R=4: BB=B+23*32:CB=BASE(6):
 ```
@@ -59,7 +59,7 @@ for a smoother effect use an accelerated clock:
 ```
 100 rem _TURBOON(BB,R)
 ```
-- Decomment line to enable turbo mode
+- uncomment line to enable turbo mode
 
 ```
 105  S=32*24-1:for I=0 to S: vpoke BB+31-I, 64 : next I 
@@ -84,7 +84,7 @@ for a smoother effect use an accelerated clock:
 ```
 160 _TURBOOFF
 ```
-- Decomment line to end of turbo section
+- uncomment line to end of turbo section
 ```
 310 DATA 11, 88, 99,  ba, 98,   64, 73, 82, 91, 100
 
